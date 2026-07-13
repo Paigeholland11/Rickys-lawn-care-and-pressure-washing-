@@ -738,6 +738,17 @@ a {
   font-size: 0.91rem;
 }
 
+.contact-item a {
+  color: #e1e7ed;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-item a:hover {
+  color: var(--bright-blue);
+  text-decoration: underline;
+}
+
 .contact-button {
   margin-top: 8px;
   width: 100%;
